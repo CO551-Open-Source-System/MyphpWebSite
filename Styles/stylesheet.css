@@ -20,9 +20,26 @@ body p
 }
 
 #banner
-{
+{   
+    background-image: url(../Images/banner2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
     border: 5px solid #dedede;    
     height: 200px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0.1em 0.1em #333;
+}
+#banner-text
+{
+    color:#dcd9d6 !important ;
+    text-align: center;
+    font-size: 30px;
+    float: center;
+    padding: 50px;
+    padding-bottom: 60px;
+    
+
 }
 
 #content_area
@@ -53,6 +70,7 @@ footer
     text-align: center;
     color: #fff;
     text-shadow: 0.1em 0.1em #333;
+    background-image: url(../Images/banner2.png);
 }
 
 #navigation
@@ -61,6 +79,7 @@ footer
     border: 3px solid #E3E3E3;
     margin-top: 20px;
     text-shadow: 0.1em 0.1em #333;
+    background-image: url(../Images/bar_backgroung.png);
 }
 
 #nav
